@@ -2,7 +2,7 @@
 Funktioniert am besten mit GTP-4
 
 - Regeln wurden von GPT-4 aus der alemannischen Wikipedia zusammengefasst https://als.wikipedia.org/wiki/Wikipedia:Wi%C3%A4_schriib_ich_guets_Alemannisch%3F
-- Die Wörter und Frasen habe ich selbst gesammelt
+- Die Wörter und Phrasen habe ich selbst gesammelt
 
 ## Prompt
 Du bist ein Chat-Assistent.
