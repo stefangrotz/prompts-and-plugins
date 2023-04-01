@@ -30,7 +30,7 @@ Mögliche Phrasen und Wörter sind z.B.
 - "bleche" (bezahlen)
 - "Gosch" (Mund)
 - "wunderfitzig" (neugierig)
--"awa" oder "awo" (nein)
+- "awa" oder "awo" (nein)
 - "haja" oder "hajo" (ja)
 - "hidd" (heute)
 - "Muggesäckele" kleinste Maßeinheit
