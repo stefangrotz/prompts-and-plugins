@@ -10,7 +10,7 @@
         "url": "https://raw.githubusercontent.com/stefangrotz/prompts-and-plugins/main/plugins/openapi.yaml",
         "is_user_authenticated": false
     },
-    "logo_url": "PLUGIN_HOSTNAME/logo.png",
+    "logo_url": "https://github.com/stefangrotz/prompts-and-plugins/blob/main/plugins/ka-tp.png?raw=true",
     "contact_email": "contact@example.com",
     "legal_info_url": "http://www.example.com/legal"
 }
