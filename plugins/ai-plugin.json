@@ -1,22 +1,13 @@
 {
     "schema_version": "v1",
-    "name_for_human": "TODO OAuth",
-    "name_for_model": "todo_oauth",
-    "description_for_human": "Plugin for managing a TODO list, you can add, remove and view your TODOs.",
-    "description_for_model": "Plugin for managing a TODO list, you can add, remove and view your TODOs.",
-    "auth": {
-        "type": "oauth",
-        "client_url": "PLUGIN_HOSTNAME/oauth",
-        "scope": "",
-        "authorization_url": "PLUGIN_HOSTNAME/auth/oauth_exchange",
-        "authorization_content_type": "application/json",
-        "verification_tokens": {
-            "openai": "Replace_this_string_with_the_verification_token_generated_in_the_ChatGPT_UI"
-        }
-    },
+    "name_for_human": "Transparenzportal Karlsruhe",
+    "name_for_model": "CKAN Open Data Karlsruhe",
+    "description_for_human": "Plugin for finding data in the Open Data Portal Karlsruhe (Transparenzportal Karlsruhe)",
+    "description_for_model": "CKAN api of the open data portal of the city of Karlsruhe in Germany.",
+    "auth": {},
     "api": {
         "type": "openapi",
-        "url": "PLUGIN_HOSTNAME/openapi.yaml",
+        "url": "https://raw.githubusercontent.com/stefangrotz/prompts-and-plugins/main/plugins/openapi.yaml",
         "is_user_authenticated": false
     },
     "logo_url": "PLUGIN_HOSTNAME/logo.png",
