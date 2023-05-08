@@ -1,16 +1,18 @@
 {
     "schema_version": "v1",
-    "name_for_human": "Transparenzportal-Karlsruhe",
-    "name_for_model": "CKAN-Open-Data-Karlsruhe",
+    "name_for_human": "Transparenzportal Karlsruhe",
+    "name_for_model": "CKAN Open Data Karlsruhe",
     "description_for_human": "Plugin for finding data in the Open Data Portal Karlsruhe (Transparenzportal Karlsruhe)",
     "description_for_model": "CKAN api of the open data portal of the city of Karlsruhe in Germany.",
-    "auth": {},
+      "auth": {
+    "type": "none"
+  },
     "api": {
         "type": "openapi",
-        "url": "https://raw.githubusercontent.com/stefangrotz/prompts-and-plugins/main/plugins/openapi.yaml",
+        "url": "https://stefang.uber.space/plugins/openapi.yaml",
         "is_user_authenticated": false
     },
-    "logo_url": "",
+    "logo_url": "https://stefang.uber.space/plugins/ka-tp.png",
     "contact_email": "contact@example.com",
     "legal_info_url": "http://www.example.com/legal"
 }
