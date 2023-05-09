@@ -2,7 +2,7 @@
     "openapi": "3.0.2",
     "info": {
         "title": "CKAN API",
-        "description": "The Comprehensive Knowledge Archive Network (CKAN) API for accessing and managing datasets.",
+        "description": "The Comprehensive Knowledge Archive Network (CKAN) API for accessing and managing datasets of the Open Data Portal Karlsruhe, Germany also known as the Transparenzportal Karlsruhe.",
         "version": "1.0.0"
     },
     "servers": [
@@ -156,7 +156,7 @@
         },
         "/action/package_list": {
             "get": {
-                "summary": "List all packages",
+                "summary": "List all packages that are available on this portal",
                 "operationId": "package_list",
                 "responses": {
                     "200": {
@@ -202,19 +202,5 @@
                 }
             }
         }
-    },
-    "components": {
-        "securitySchemes": {
-            "APIKeyHeader": {
-                "type": "apiKey",
-                "in": "header",
-                "name": "Authorization"
-            }
-        }
-    },
-    "security": [
-        {
-            "APIKeyHeader": []
-        }
-    ]
+    }
 }
