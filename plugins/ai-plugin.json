@@ -4,12 +4,12 @@
     "name_for_model": "CKAN Open Data Karlsruhe",
     "description_for_human": "Plugin for finding data in the Open Data Portal Karlsruhe (Transparenzportal Karlsruhe)",
     "description_for_model": "CKAN api of the open data portal of the city of Karlsruhe in Germany.",
-      "auth": {
-    "type": "none"
-  },
+    "auth": {
+        "type": "none"
+    },
     "api": {
         "type": "openapi",
-        "url": "https://stefang.uber.space/plugins/openapi.yaml",
+        "url": "https://stefang.uber.space/plugins/openapi.json",
         "is_user_authenticated": false
     },
     "logo_url": "https://stefang.uber.space/plugins/ka-tp.png",
